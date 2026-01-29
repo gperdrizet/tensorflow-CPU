@@ -5,8 +5,8 @@
 	// Based on Google's official TensorFlow 2.16 image
 	// See here: https://hub.docker.com/r/gperdrizet/deeplearning-cpu
     // And here: https://hub.docker.com/r/tensorflow/tensorflow/tags?name=2.16.1
-	"name": "DeepLearning CPU",
-	"image": "gperdrizet/deeplearning-cpu",
+	"name": "TensorFlow 2.16 CPU",
+	"image": "gperdrizet/tensorflow-cpu",
     "runArgs": [
 		"--publish", "6006:6006"    // Map TensorBoard port for easy access
 	],
@@ -14,9 +14,6 @@
 	"containerEnv": {
 		"TF_CPP_MIN_LOG_LEVEL": "1" // Suppress TensorFlow INFO logs for cleaner output
   	},
-
-	// Forward TensorBoard port to make it accessible
-	"forwardPorts": [6006],
 
 	// Custom configuration options
 	"customizations": {
