@@ -10,7 +10,7 @@ A ready-to-use TensorFlow environment for CPU-only systems in VS Code. Ideal for
 | **Python** | Python 3.10, NumPy 1.24, Pandas 2.2, Matplotlib 3.10 |
 | **Tools** | JupyterLab, TensorBoard |
 
-> **Have an NVIDIA GPU?** Use the GPU version instead: [gperdrizet/deeplearning-GPU](https://github.com/gperdrizet/tensorflow-GPU)
+> **Have an NVIDIA GPU?** Use the GPU version instead: [gperdrizet/tensorflow-GPU](https://github.com/gperdrizet/tensorflow-GPU)
 
 ## Project structure
 
