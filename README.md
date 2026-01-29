@@ -1,12 +1,12 @@
-# Deep learning CPU development environment
+# TensorFlow CPU development environment
 
-A ready-to-use deep learning environment for CPU-only systems in VS Code. Includes both **PyTorch** and **TensorFlow** frameworks. Ideal for users without NVIDIA GPUs, including macOS users, or anyone who wants a lightweight environment for learning, prototyping, or CPU-based inference.
+A ready-to-use TensorFlow environment for CPU-only systems in VS Code. Ideal for users without NVIDIA GPUs, including macOS users, or anyone who wants a lightweight environment for learning, prototyping, or CPU-based inference.
 
 ## What's included
 
 | Category | Versions |
 |----------|----------|
-| **ML** | PyTorch 2.10, TensorFlow 2.16, Keras 3.3, Scikit-learn 1.4 |
+| **ML** | TensorFlow 2.16, Keras 3.3, Scikit-learn 1.4 |
 | **Python** | Python 3.10, NumPy 1.24, Pandas 2.2, Matplotlib 3.10 |
 | **Tools** | JupyterLab, TensorBoard |
 
